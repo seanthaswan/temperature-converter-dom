@@ -1,3 +1,68 @@
+body {
+	text-align: center;
+	background: white;
+	font-family: sans-serif;
+}
 h1 {
-  color: blue;
+  color: black;
+}
+
+form{
+	margin: 0 auto;
+}
+
+input {
+	margin: 0 auto;
+	display: block;
+}
+
+#tempBox {
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 4px 1px;
+	width: 250px;
+	height: 100px;
+	margin: 10px auto 40px auto;
+	padding: 10px;
+	font-size:30px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#submitTemp{
+	margin-top: 10px;
+	width: 200px;
+	height: 50px;
+	border:none;
+	outline:none;
+}
+
+
+#clearTemp {
+	margin-top: 10px;
+	width: 200px;
+	height: 50px;
+	border:none;
+	outline:none;
+}
+
+#wrapper {
+	border:6px solid black;
+	margin: 20px auto;
+	width: 500px;
+	background: lightblue;
+	border-radius:6px;
+	box-shadow: 0 0 1px 1px;
+}
+
+#output{
+	box-shadow: 0 0 4px 1px;
+	border-radius: 3px;
+	width: 310px;
+	height: auto;
+	margin: 50px auto;
+	padding: 40px;
+	background: white;
+	font-size: 40px;
+	color: black;
 }
